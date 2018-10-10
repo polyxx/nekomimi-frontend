@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb", "plugin:flowtype/recommended"], # airbnbのルールを継承します
+  "plugins": ["flowtype"],
+  "env": {
+    "browser": true, # ブラウザーのグローバル変数を有効化します
+    "es6": true # es6(es2015)の構文を有効化します
+  },
+  "parser": "babel-eslint", # babel-eslintをパーサとして使用
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true # jsxを有効化します
+    }
+  },
+  "rules": {
+    "no-console": "off" # no-consoleのルールをoffにする
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "nekomimi-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "polyxx <polyxx@users.noreply.github.com>",
+  "license": "MIT"
+}

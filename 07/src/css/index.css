@@ -1,0 +1,16 @@
+:root {
+  --primary-color: skyblue; /* 変数名は--から始める必要がある */
+}
+
+body {
+  color: var(--primary-color); /* var(変数名) で変数を呼び出す */
+  font-size: 0.9rem;
+}
+
+.foo {
+  color: white;
+
+  & .bar { /* ネスト記法で .bar のスタイルを追加 */
+    color: blue;
+  }
+}
